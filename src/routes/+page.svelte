@@ -1,4 +1,5 @@
 <script>
+    import { HeroSection } from "../layout/";
 </script>
 
 <svelte:head>
@@ -6,10 +7,7 @@
 	<meta name="description" content="Luan Rabelo a Software Enginner" />
 </svelte:head>
 
-<section>
-    <h2>Hello World!</h2>
-</section>
-
+<HeroSection />
 
 <style>
 </style>
