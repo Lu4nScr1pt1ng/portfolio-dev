@@ -1,15 +1,10 @@
 <script>
-    import { HeroSection, NavBar } from "../layout/";
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Contact</title>
 	<meta name="description" content="Luan Rabelo a Software Enginner" />
 </svelte:head>
-
-<NavBar />
-
-<HeroSection />
 
 <style>
 </style>
