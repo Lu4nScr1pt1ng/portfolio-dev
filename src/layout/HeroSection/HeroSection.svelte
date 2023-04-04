@@ -1,4 +1,14 @@
 <script lang="ts">
+	import { HeroSectionCanvas } from "$lib/scripts/HeroSectionCanvas";
+	import { onMount } from "svelte";
+	
+
+
+
+	onMount(() => 
+	{
+		HeroSectionCanvas();
+	})
 </script>
 
 <section class="hero">
@@ -21,8 +31,8 @@
       </div>
 		</div>
 	</div>
-	<script src="./js/HeroSection.js"></script>
 </section>
+
 
 <style>
 

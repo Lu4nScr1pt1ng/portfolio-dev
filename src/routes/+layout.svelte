@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { NavBar } from '../layout';
-
+	
 	
 </script>
 
@@ -11,6 +11,7 @@
 		<slot />
 	</main>
 </div>
+
 
 <style>
 </style>
