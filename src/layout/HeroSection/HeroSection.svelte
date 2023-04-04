@@ -12,7 +12,7 @@
 					<h1 class="hero__title text-2xl sm:text-4xl md:text-6xl">Hi, I'm Luan Rabelo</h1>
 				</div>
         <div id="bg">
-          <h2 class="hero__subtitle text-xl sm:text-3xl md:text-5xl">Software Developer</h2>
+          <h2 class="hero__subtitle font-semibold text-xl sm:text-3xl md:text-5xl">Software Developer</h2>
         </div>
 			</div>
       <div class="mt-6 font-medium flex gap-6 sm:gap-12 md:gap-[140px] justify-center">
@@ -99,7 +99,7 @@
 		padding: 0.2em 0.5em;
 		border-radius: 12px;
 		border: none;
-		color: black;
+		color: white;
 		position: relative;
 		z-index: 2;
 		box-sizing: border-box;
@@ -120,14 +120,12 @@
 	}
 
 	a:hover {
-		color: black;
 		transform: scale(1.05);
 		filter: saturate(1);
+		animation: scrollbg linear 0.5s infinite;
 		opacity: 1;
 	}
 	a:active {
-		color: #fff;
-		animation: scrollbg linear 0.5s infinite;
 		filter: saturate(1);
 		transform: scale(1.1);
 		opacity: 1;
