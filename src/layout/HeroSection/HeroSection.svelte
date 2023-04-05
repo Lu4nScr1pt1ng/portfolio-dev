@@ -11,7 +11,7 @@
 	})
 </script>
 
-<section class="hero">
+<section id="Hero" class="hero">
 	<div>
 		<div id="page" class="site">
 			<canvas class="banner_canvas" id="canvas_banner" />
@@ -26,8 +26,8 @@
         </div>
 			</div>
       <div class="mt-6 font-medium flex gap-6 sm:gap-12 md:gap-[140px] justify-center">
-        <a data-sveltekit-preload-data="tap" href="/about" class="btn text-base sm:text-xl md:text-2xl">About me</a>
-        <a data-sveltekit-preload-data="tap" href="/contact" class="btn text-base sm:text-xl md:text-2xl">Get in touch</a>
+        <a data-sveltekit-preload-data="tap" href="#About" class="btn text-base sm:text-xl md:text-2xl">About me</a>
+        <a data-sveltekit-preload-data="tap" href="#Contact" class="btn text-base sm:text-xl md:text-2xl">Get in touch</a>
       </div>
 		</div>
 	</div>
@@ -92,12 +92,12 @@
 	}
 
 	.banner_canvas {
-		position: absolute;
+		display: block;
 		z-index: 0;
 		top: 0;
 		left: 0;
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 	}
 
 	a {

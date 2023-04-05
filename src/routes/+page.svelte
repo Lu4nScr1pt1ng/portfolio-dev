@@ -1,5 +1,5 @@
 <script>
-	import { HeroSection } from "../layout";
+	import { HeroSection, AboutSection } from "../layout";
 
 
 
@@ -11,6 +11,9 @@
 </svelte:head>
 
 <HeroSection />
+
+<AboutSection />
+
 
 <style>
 </style>

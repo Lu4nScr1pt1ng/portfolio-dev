@@ -1,9 +1,17 @@
 export function loadScript(src) {
     return new Promise((resolve, reject) => {
+		const scriptToDelete = document.getElementsByClassName("loaded-script");
+		if(scriptToDelete[0] != undefined)
+		{
+			scriptToDelete[0].remove();
+		}
+
         const script = document.createElement('script');
         script.src = src;
+		script.classList.add("loaded-script");
 
         document.body.appendChild(script);
+
 
         script.addEventListener('load', () => resolve(script));
         script.addEventListener('error', () => reject(script));
