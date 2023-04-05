@@ -70,11 +70,11 @@ tabs.forEach((tab) => {
             <svg xmlns="http://www.w3.org/2000/svg" class="w-[1em] h-[1em] sm:w-[1.4em] sm:h-[1.4em]" viewBox="0 0 32 32"><path d="M16 15.503A5.041 5.041 0 1 0 16 5.42a5.041 5.041 0 0 0 0 10.083zm0 2.215c-6.703 0-11 3.699-11 5.5v3.363h22v-3.363c0-2.178-4.068-5.5-11-5.5z"/></svg>
           <p>About</p>
         </a >
-        <a class:active={isUrlContainPath($page.url.pathname, "/#Portfolio")} class="tab yellow" href="#Portfolio">
+        <a class:active={isUrlContainPath($page.url.pathname, "/#")} class="tab yellow" href="#hero">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-[0.8em] h-[0.8em] sm:w-[1.2em] sm:h-[1.2em]" viewBox="0 0 24 24" id="folder-code" ><path d="M20,6H13.41L11,3.59A2,2,0,0,0,9.59,3H4A2,2,0,0,0,2,5V19a2,2,0,0,0,2,2H20a2,2,0,0,0,2-2V8A2,2,0,0,0,20,6Zm-9.29,8.29a1,1,0,0,1,0,1.42,1,1,0,0,1-1.42,0l-2-2a1,1,0,0,1,0-1.42l2-2a1,1,0,0,1,1.42,1.42L9.41,13Zm6-.58-2,2a1,1,0,0,1-1.42,0,1,1,0,0,1,0-1.42L14.59,13l-1.3-1.29a1,1,0,0,1,1.42-1.42l2,2A1,1,0,0,1,16.71,13.71Z"/></svg>
           <p>Portfolio</p>
         </a>
-          <a class:active={isUrlContainPath($page.url.pathname, "/#Contact")} class="tab teal" href="#Contact">
+          <a class:active={isUrlContainPath($page.url.pathname, "/#")} class="tab teal" href="#hero">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="w-[0.8em] h-[0.8em] sm:w-[1.2em] sm:h-[1.2em]" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet">
                 <path class="clr-i-solid clr-i-solid-path-1" d="M32.33,6a2,2,0,0,0-.41,0h-28a2,2,0,0,0-.53.08L17.84,20.47Z"/><path class="clr-i-solid clr-i-solid-path-2" d="M33.81,7.39,19.25,21.89a2,2,0,0,1-2.82,0L2,7.5a2,2,0,0,0-.07.5V28a2,2,0,0,0,2,2h28a2,2,0,0,0,2-2V8A2,2,0,0,0,33.81,7.39ZM5.3,28H3.91V26.57l7.27-7.21,1.41,1.41Zm26.61,0H30.51l-7.29-7.23,1.41-1.41,7.27,7.21Z"/>
                 

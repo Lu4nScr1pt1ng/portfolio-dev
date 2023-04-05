@@ -27,7 +27,7 @@
 			</div>
       <div class="mt-6 font-medium flex gap-6 sm:gap-12 md:gap-[140px] justify-center">
         <a data-sveltekit-preload-data="tap" href="#About" class="btn text-base sm:text-xl md:text-2xl">About me</a>
-        <a data-sveltekit-preload-data="tap" href="#Contact" class="btn text-base sm:text-xl md:text-2xl">Get in touch</a>
+        <a data-sveltekit-preload-data="tap" href="#Hero" class="btn text-base sm:text-xl md:text-2xl">Get in touch</a>
       </div>
 		</div>
 	</div>
@@ -36,6 +36,11 @@
 
 <style>
 
+	.hero
+	{
+		-webkit-filter: drop-shadow(5px 5px 5px #000);
+		filter: drop-shadow(5px 5px 5px #000);
+	}
 
   .btn {
     pointer-events:all;
