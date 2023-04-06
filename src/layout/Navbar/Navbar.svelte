@@ -88,10 +88,10 @@ tabs.forEach((tab) => {
 
 	header {
 
-		z-index: 10;
+		    z-index: 10;
         position: fixed;
         left: 50%;
-        top: 90%;
+        bottom: 50px;
         transform: translate(-50%, -50%);
 	}
 
