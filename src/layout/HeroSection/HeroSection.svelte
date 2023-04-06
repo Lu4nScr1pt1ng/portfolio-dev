@@ -1,14 +1,10 @@
 <script lang="ts">
-	import { HeroSectionCanvas } from "$lib/scripts/HeroSectionCanvas";
-	import { onMount } from "svelte";
-	
+	import { HeroSectionCanvas } from '$lib/scripts/HeroSectionCanvas';
+	import { onMount } from 'svelte';
 
-
-
-	onMount(() => 
-	{
+	onMount(() => {
 		HeroSectionCanvas();
-	})
+	});
 </script>
 
 <section id="Hero" class="hero">
@@ -21,35 +17,51 @@
 				<div>
 					<h1 class="hero__title text-2xl sm:text-4xl md:text-6xl">Hi, I'm Luan Rabelo</h1>
 				</div>
-        <div id="bg">
-          <h2 class="hero__subtitle font-semibold text-xl sm:text-3xl md:text-5xl">Software Developer</h2>
-        </div>
+				<div id="bg">
+					<h2 class="hero__subtitle font-semibold text-xl sm:text-3xl md:text-5xl">
+						Software Developer
+					</h2>
+				</div>
 			</div>
-      <div class="mt-6 font-medium flex gap-6 sm:gap-12 md:gap-[140px] justify-center">
-        <a data-sveltekit-preload-data="tap" href="#About" class="btn text-base sm:text-xl md:text-2xl">About me</a>
-        <a data-sveltekit-preload-data="tap" href="#Hero" class="btn text-base sm:text-xl md:text-2xl">Get in touch</a>
-      </div>
+			<div class="mt-6 font-medium flex gap-6 sm:gap-12 md:gap-[140px] justify-center">
+				<a
+					data-sveltekit-preload-data="tap"
+					href="#About"
+					class="btn text-base sm:text-xl md:text-2xl">About me</a
+				>
+				<a
+					data-sveltekit-preload-data="tap"
+					href="#Hero"
+					class="btn text-base sm:text-xl md:text-2xl">Get in touch</a
+				>
+			</div>
+		</div>
+		<div class="hero__shadow">
+
 		</div>
 	</div>
 </section>
 
-
 <style>
-
-	.hero
-	{
-		-webkit-filter: drop-shadow(5px 5px 5px #000);
-		filter: drop-shadow(5px 5px 5px #000);
+	.hero__shadow {
+		pointer-events: none;
+		z-index: 3;
+		position: absolute;
+		bottom: 0;
+		margin: auto;
+		left: 0;
+		height: 100vh;
+		right: 0;
+		box-shadow: inset      0px          -45px       20px           -10px       #000;
 	}
 
-  .btn {
-    pointer-events:all;
-  }
-  
+	.btn {
+		pointer-events: all;
+	}
 
 	.hero__container {
 		color: white;
-    	pointer-events:none;
+		pointer-events: none;
 		z-index: 3;
 		position: absolute;
 		top: 0;
