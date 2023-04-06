@@ -11,6 +11,7 @@
 	<div>
 		<div id="page" class="site">
 			<canvas class="banner_canvas" id="canvas_banner" />
+
 		</div>
 		<div class="hero__container">
 			<div class="hero__heading">
@@ -36,6 +37,7 @@
 				>
 			</div>
 		</div>
+
 		<div class="hero__shadow">
 
 		</div>
@@ -43,16 +45,19 @@
 </section>
 
 <style>
+	.hero {}
+
 	.hero__shadow {
 		pointer-events: none;
-		z-index: 3;
+		z-index: 5;
 		position: absolute;
 		bottom: 0;
 		margin: auto;
-		left: 0;
 		height: 100vh;
+		left: 0;
 		right: 0;
 		box-shadow: inset      0px          -45px       20px           -10px       #000;
+
 	}
 
 	.btn {
@@ -113,7 +118,7 @@
 		z-index: 0;
 		top: 0;
 		left: 0;
-		height: 100vh;
+		height: 100svh;
 		width: 100%;
 	}
 
