@@ -1,11 +1,196 @@
 <script lang="ts"></script>
 
-
-<section id="About" class="about">
-    <div>Olá mundo!</div>
+<section id="About" class="about text-white h-[100vh] container mx-auto">
+	<div class="about__container">
+		<div class="flex py-8 text-3xl">
+			<h2 class="text-primary after: font-semibold whitespace-nowrap heading">About Me</h2>
+		</div>
+		<div class="flex flex-col md:flex-row md:justify-between">
+			<div class="text-sm text-secondary flex flex-col gap-4 md:w-[50%]">
+				<p>
+					<span class="text-expose">Hello! I'm Luan Rabelo </span>, a technology enthusiast and
+					full-stack developer. I've been venturing into the world of development and my passion for
+					what I do only grows stronger with each passing day. Throughout this journey, I've worked
+					on several projects and am constantly
+					<span class="text-expose">seeking new challenges. </span> My goal is to transform ideas into
+					robust systems and deliver the desired results to clients.
+				</p>
+				<p>
+					As a professional, I am dedicated, <span class="text-expose">detail-oriented</span>, and
+					committed to delivering
+					<span class="text-expose">high-quality work. </span> I prioritize staying up-to-date with the
+					latest industry trends and technologies, ensuring that I am always providing the most effective
+					solutions for my clients.
+				</p>
+				<p>
+					Currently, I work as a <span class="text-expose">C# Developer Analyst</span>, building new
+					products and maintaining systems. My work involves collaborating with cross-functional
+					teams, ensuring timely and effective delivery of projects. I take pride in my work and
+					strive to ensure that
+					<span class="text-expose">my clients are satisfied with the end product.</span>
+				</p>
+			</div>
+			<div class="flex w-[100%] justify-center  max-h-[360px] md:w-[30%] md:items-start">
+				<svg
+					version="1.1"
+					id="Layer_1"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					viewBox="0 0 512 512"
+					xml:space="preserve"
+					fill="#000000"
+					><g id="SVGRepo_bgCarrier" stroke-width="0" /><g
+						id="SVGRepo_tracerCarrier"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/><g id="SVGRepo_iconCarrier">
+						<path
+							style="fill:#E4EAF8;"
+							d="M494.345,472.276H17.655C7.904,472.276,0,464.372,0,454.621V57.379 c0-9.751,7.904-17.655,17.655-17.655h476.69c9.751,0,17.655,7.904,17.655,17.655v397.241 C512,464.372,504.096,472.276,494.345,472.276z"
+						/>
+						<path
+							style="fill:#5B5D6E;"
+							d="M494.345,472.276H256V83.862h256v370.759C512,464.372,504.096,472.276,494.345,472.276z"
+						/>
+						<path
+							style="fill:#D5DCED;"
+							d="M512,83.862H0V57.379c0-9.751,7.904-17.655,17.655-17.655h476.69c9.751,0,17.655,7.904,17.655,17.655 V83.862z"
+						/>
+						<path
+							style="fill:#E4EAF8;"
+							d="M26.483,75.034h-8.828c-4.875,0-8.828-3.953-8.828-8.828v-8.828c0-4.875,3.953-8.828,8.828-8.828 h8.828c4.875,0,8.828,3.953,8.828,8.828v8.828C35.31,71.082,31.358,75.034,26.483,75.034z"
+						/>
+						<path
+							style="fill:#FF5050;"
+							d="M423.724,75.034h-8.828c-4.875,0-8.828-3.953-8.828-8.828v-8.828c0-4.875,3.953-8.828,8.828-8.828 h8.828c4.875,0,8.828,3.953,8.828,8.828v8.828C432.552,71.082,428.599,75.034,423.724,75.034z"
+						/>
+						<path
+							style="fill:#FFF082;"
+							d="M459.034,75.034h-8.828c-4.875,0-8.828-3.953-8.828-8.828v-8.828c0-4.875,3.953-8.828,8.828-8.828 h8.828c4.875,0,8.828,3.953,8.828,8.828v8.828C467.862,71.082,463.91,75.034,459.034,75.034z"
+						/>
+						<path
+							style="fill:#A0FFB4;"
+							d="M494.345,75.034h-8.828c-4.875,0-8.828-3.953-8.828-8.828v-8.828c0-4.875,3.953-8.828,8.828-8.828 h8.828c4.875,0,8.828,3.953,8.828,8.828v8.828C503.172,71.082,499.22,75.034,494.345,75.034z"
+						/>
+						<path
+							style="fill:#00C3FF;"
+							d="M144.898,150.826l-59.75,59.75c-3.229,3.229-3.463,8.386-0.54,11.893L256,428.138V145.655h-98.618 C152.7,145.655,148.209,147.516,144.898,150.826z"
+						/> <polygon style="fill:#80E1FF;" points="256,145.655 176.552,216.276 256,216.276 " />
+						<g>
+							<path
+								style="fill:#00AAF0;"
+								d="M176.552,216.276l-25.97-69.254c-2.103,0.878-4.039,2.159-5.681,3.801L85.15,210.575 c-1.578,1.578-2.415,3.619-2.543,5.7L176.552,216.276L176.552,216.276z"
+							/> <polygon style="fill:#00AAF0;" points="176.552,216.276 256,428.138 256,216.276 " />
+						</g>
+						<path
+							style="fill:#AFB9D2;"
+							d="M256,489.931c-4.879,0-8.828-3.953-8.828-8.828V30.897c0-4.875,3.948-8.828,8.828-8.828 c4.879,0,8.828,3.953,8.828,8.828v450.207C264.828,485.978,260.879,489.931,256,489.931z"
+						/>
+						<g>
+							<path
+								style="fill:#FF5050;"
+								d="M317.793,163.31h-17.655c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828S322.673,163.31,317.793,163.31z"
+							/>
+							<path
+								style="fill:#FF5050;"
+								d="M317.793,233.931h-17.655c-4.879,0-8.828-3.953-8.828-8.828c0-4.875,3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828C326.621,229.978,322.673,233.931,317.793,233.931z"
+							/>
+						</g>
+						<path
+							style="fill:#A0FFB4;"
+							d="M344.276,198.621h-17.655c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828S349.155,198.621,344.276,198.621z"
+						/>
+						<path
+							style="fill:#FFFFFF;"
+							d="M467.862,163.31H353.103c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h114.759 c4.879,0,8.828,3.953,8.828,8.828S472.742,163.31,467.862,163.31z"
+						/>
+						<path
+							style="fill:#FFF082;"
+							d="M467.862,233.931H353.103c-4.879,0-8.828-3.953-8.828-8.828c0-4.875,3.948-8.828,8.828-8.828h114.759 c4.879,0,8.828,3.953,8.828,8.828C476.69,229.978,472.742,233.931,467.862,233.931z"
+						/>
+						<path
+							style="fill:#D5DCED;"
+							d="M467.862,198.621h-88.276c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h88.276 c4.879,0,8.828,3.953,8.828,8.828S472.742,198.621,467.862,198.621z"
+						/>
+						<path
+							style="fill:#A0FFB4;"
+							d="M344.276,269.241h-17.655c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828S349.155,269.241,344.276,269.241z"
+						/>
+						<path
+							style="fill:#D5DCED;"
+							d="M467.862,269.241h-88.276c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h88.276 c4.879,0,8.828,3.953,8.828,8.828S472.742,269.241,467.862,269.241z"
+						/>
+						<g>
+							<path
+								style="fill:#FF5050;"
+								d="M317.793,304.552h-17.655c-4.879,0-8.828-3.953-8.828-8.828c0-4.875,3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828C326.621,300.599,322.673,304.552,317.793,304.552z"
+							/>
+							<path
+								style="fill:#FF5050;"
+								d="M317.793,375.172h-17.655c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828S322.673,375.172,317.793,375.172z"
+							/>
+						</g>
+						<path
+							style="fill:#A0FFB4;"
+							d="M344.276,339.862h-17.655c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828S349.155,339.862,344.276,339.862z"
+						/>
+						<path
+							style="fill:#FFFFFF;"
+							d="M467.862,304.552H353.103c-4.879,0-8.828-3.953-8.828-8.828c0-4.875,3.948-8.828,8.828-8.828h114.759 c4.879,0,8.828,3.953,8.828,8.828C476.69,300.599,472.742,304.552,467.862,304.552z"
+						/>
+						<path
+							style="fill:#FFF082;"
+							d="M467.862,375.172H353.103c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h114.759 c4.879,0,8.828,3.953,8.828,8.828S472.742,375.172,467.862,375.172z"
+						/>
+						<path
+							style="fill:#D5DCED;"
+							d="M467.862,339.862h-88.276c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h88.276 c4.879,0,8.828,3.953,8.828,8.828S472.742,339.862,467.862,339.862z"
+						/>
+						<path
+							style="fill:#A0FFB4;"
+							d="M344.276,410.483h-17.655c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h17.655 c4.879,0,8.828,3.953,8.828,8.828S349.155,410.483,344.276,410.483z"
+						/>
+						<path
+							style="fill:#D5DCED;"
+							d="M467.862,410.483h-88.276c-4.879,0-8.828-3.953-8.828-8.828s3.948-8.828,8.828-8.828h88.276 c4.879,0,8.828,3.953,8.828,8.828S472.742,410.483,467.862,410.483z"
+						/>
+					</g></svg
+				>
+			</div>
+		</div>
+	</div>
 </section>
 
-
 <style>
+	h2::after {
+		content: '';
+		height: 2px;
+		max-width: 1480px;
+		width: calc(80.5vw - 160px);
+		top: -18px;
+		right: -160px;
+		position: relative;
+		background: linear-gradient(
+			to right,
+			#ff0800 0%,
+			#ffff00 17%,
+			#2aff00 34%,
+			#00fff2 51%,
+			#004cff 68%,
+			#f400fc 85%,
+			#ff0800 100%
+		);
+		animation: slide 8s infinite linear forwards;
+		opacity: 1;
+		display: block;
+	}
 
+	@keyframes slide {
+		0% {
+			background-position-x: 0%;
+		}
+		100% {
+			background-position-x: 700px;
+		}
+	}
 </style>

@@ -17,7 +17,11 @@ export default {
 			xl: '1676px'
 		},
 		extend: {
-			colors: {},
+			colors: {
+				primary: "#CBEBEC",
+				secondary: "#9B9191",
+				expose: "#64FFDA"
+			},
             body: '#000000',
 		}
 	},
