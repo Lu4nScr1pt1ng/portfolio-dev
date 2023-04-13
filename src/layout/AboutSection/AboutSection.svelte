@@ -1,12 +1,15 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import { externalLink } from "$lib/utils";
+
+</script>
 
 <section id="About" class="about text-white h-[100vh] container mx-auto">
 	<div class="about__container">
 		<div class="flex py-8 text-3xl">
-			<h2 class="text-primary after: font-semibold whitespace-nowrap heading">About Me</h2>
+			<h2 class="text-primary section__heading font-semibold whitespace-nowrap heading">About Me</h2>
 		</div>
 		<div class="flex flex-col md:flex-row md:justify-between">
-			<div class="text-sm text-secondary flex flex-col gap-4 md:w-[50%]">
+			<div class="text-sm md:text-base order-2 md:order-1 text-secondary flex flex-col gap-4 md:w-[50%]">
 				<p>
 					<span class="text-expose">Hello! I'm Luan Rabelo </span>, a technology enthusiast and
 					full-stack developer. I've been venturing into the world of development and my passion for
@@ -29,8 +32,11 @@
 					strive to ensure that
 					<span class="text-expose">my clients are satisfied with the end product.</span>
 				</p>
+				<div class="py-4 text-center md:text-start">
+					<a href="/curriculum/CV-Desenvolvedor-Engenheiro-Programador-Analista.pdf" {...externalLink} class="offset uppercase">SEE MY Resume</a>
+				</div>
 			</div>
-			<div class="flex w-[100%] justify-center  max-h-[360px] md:w-[30%] md:items-start">
+			<div class="flex w-[50%] md:order-2 mx-auto justify-center about__image  max-h-[360px] md:w-[30%] md:items-start">
 				<svg
 					version="1.1"
 					id="Layer_1"
@@ -162,35 +168,35 @@
 </section>
 
 <style>
-	h2::after {
-		content: '';
-		height: 2px;
-		max-width: 1480px;
-		width: calc(80.5vw - 160px);
-		top: -18px;
-		right: -160px;
-		position: relative;
-		background: linear-gradient(
-			to right,
-			#ff0800 0%,
-			#ffff00 17%,
-			#2aff00 34%,
-			#00fff2 51%,
-			#004cff 68%,
-			#f400fc 85%,
-			#ff0800 100%
-		);
-		animation: slide 8s infinite linear forwards;
-		opacity: 1;
-		display: block;
-	}
 
-	@keyframes slide {
-		0% {
-			background-position-x: 0%;
-		}
-		100% {
-			background-position-x: 700px;
-		}
-	}
+
+.offset {
+	--tw-text-opacity: 1;
+    --color: rgb(100 255 218 / var(--tw-text-opacity));
+    --hover: rgb(74, 125, 234);
+}
+.offset {
+    box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+
+.offset:hover {
+    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+.offset:hover {
+    border-color: var(--hover);
+    color: #fff;
+}
+
+.offset {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+.offset {
+    color: var(--color);
+    transition: 0.25s;
+}
 </style>

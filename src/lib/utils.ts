@@ -1,4 +1,4 @@
-export function loadScript(src) {
+export function loadScript(src: string) {
     return new Promise((resolve, reject) => {
 		const scriptToDelete = document.getElementsByClassName("loaded-script");
 		if(scriptToDelete[0] != undefined)

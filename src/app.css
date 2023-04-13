@@ -4,6 +4,39 @@
 
 @layer base {
 
+	.section__heading::after {
+		content: '';
+		height: 2px;
+		max-width: 1480px;
+		width: calc(80.5vw - 160px);
+		top: -18px;
+		right: -160px;
+		position: relative;
+		background: linear-gradient(
+			to right,
+			#ff0800 0%,
+			#ffff00 17%,
+			#2aff00 34%,
+			#00fff2 51%,
+			#004cff 68%,
+			#f400fc 85%,
+			#ff0800 100%
+		);
+		animation: slide 8s infinite linear forwards;
+		opacity: 1;
+		display: block;
+	}
+
+	@keyframes slide {
+		0% {
+			background-position-x: 0%;
+		}
+		100% {
+			background-position-x: 700px;
+		}
+	}
+
+
   ::-webkit-scrollbar {
       width: 8px;
   }
