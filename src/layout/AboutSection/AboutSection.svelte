@@ -32,7 +32,7 @@
 					strive to ensure that
 					<span class="text-expose">my clients are satisfied with the end product.</span>
 				</p>
-				<div class="py-4 text-center md:text-start">
+				<div class="py-12 text-center md:text-start">
 					<a href="/curriculum/CV-Desenvolvedor-Engenheiro-Programador-Analista.pdf" {...externalLink} class="offset uppercase">SEE MY Resume</a>
 				</div>
 			</div>
@@ -192,7 +192,6 @@
     border: 2px solid;
     font: inherit;
     line-height: 1;
-    margin: 0.5em;
     padding: 1em 2em;
 }
 .offset {
