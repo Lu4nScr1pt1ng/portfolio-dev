@@ -4,14 +4,10 @@
 
 @layer base {
 
-	.section__heading::after {
-		content: '';
+	.line--rainbow {
 		height: 2px;
 		max-width: 1480px;
-		width: calc(80.5vw - 160px);
-		top: -18px;
-		right: -160px;
-		position: relative;
+		width: 100%;
 		background: linear-gradient(
 			to right,
 			#ff0800 0%,

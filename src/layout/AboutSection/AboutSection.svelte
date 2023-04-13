@@ -5,8 +5,9 @@
 
 <section id="About" class="about text-white h-[100vh] container mx-auto">
 	<div class="about__container">
-		<div class="flex py-8 text-3xl">
+		<div class="flex items-center gap-4 py-8 text-3xl">
 			<h2 class="text-primary section__heading font-semibold whitespace-nowrap heading">About Me</h2>
+			<div class="line--rainbow"></div>
 		</div>
 		<div class="flex flex-col md:flex-row md:justify-between">
 			<div class="text-sm md:text-base order-2 md:order-1 text-secondary flex flex-col gap-4 md:w-[50%]">
