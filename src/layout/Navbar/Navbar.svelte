@@ -44,18 +44,16 @@
 			if (!e.currentTarget.classList.contains('tab')) {
 				return;
 			} else {
-        // disactiveAllTabs();
-        changeTabContainerRadius();
-        // e.currentTarget.classList.add("active");
-        // setTimeout(() => {window.addEventListener("scroll", changeTheActiveOnScroll)}, 2000)
-        
-
+				// disactiveAllTabs();
+				changeTabContainerRadius();
+				// e.currentTarget.classList.add("active");
+				// setTimeout(() => {window.addEventListener("scroll", changeTheActiveOnScroll)}, 2000)
 			}
 		}
 
 		const sections = document.querySelectorAll('section');
 
-    changeTheActiveOnScroll();
+		changeTheActiveOnScroll();
 
 		function changeTheActiveOnScroll() {
 			var current: string | null = '';
@@ -77,23 +75,18 @@
 			});
 		}
 
-		window.addEventListener("scroll", changeTheActiveOnScroll);
+		window.addEventListener('scroll', changeTheActiveOnScroll);
 
 		tabs.forEach((tab) => {
 			// tab.addEventListener('click', (e) => { window.removeEventListener("scroll", changeTheActiveOnScroll); activeSelectedTab(e); });
-      			tab.addEventListener('click', activeSelectedTab);
-
+			tab.addEventListener('click', activeSelectedTab);
 		});
 	});
 </script>
 
 <header>
 	<div class="tab-nav-container text-sm w-[275px] sm:w-[375px] lg:w-[475px] p-[12px] sm:p-[24px]">
-		<a
-			href="#Hero"
-			
-			class="tab Hero active purple"
-		>
+		<a href="#Hero" class="tab Hero active purple">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -115,11 +108,7 @@
 			</svg>
 			<p>Home</p>
 		</a>
-		<a
-
-			href="#About"
-			class="tab About pink"
-		>
+		<a href="#About" class="tab About pink">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="w-[1em] h-[1em] sm:w-[1.4em] sm:h-[1.4em]"
@@ -130,10 +119,7 @@
 			>
 			<p>About</p>
 		</a>
-		<a
-			class="tab Portfolio yellow"
-			href="#Hero"
-		>
+		<a class="tab Portfolio yellow" href="#Hero">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="w-[0.8em] h-[0.8em] sm:w-[1.2em] sm:h-[1.2em]"
@@ -145,10 +131,7 @@
 			>
 			<p>Portfolio</p>
 		</a>
-		<a
-			class="tab Contact teal"
-			href="#Hero"
-		>
+		<a class="tab Contact teal" href="#Hero">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -188,7 +171,7 @@
 		border-bottom-right-radius: 40px;
 		border-bottom-left-radius: 10px;
 		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
-		transition: border-radius 0.5s linear;
+		transition: border-radius 0.3s linear;
 	}
 
 	.tab {
@@ -200,7 +183,9 @@
 		background-color: rgb(225, 225, 225);
 		border-radius: 40px;
 		cursor: pointer;
-		transition: background 0.5s linear;
+		transition: background 0.3s linear;
+		transition: color 0.3s linear;
+		transition: fill 0.3s linear;
 	}
 
 	.tab svg {
@@ -211,12 +196,13 @@
 		font-weight: bold;
 		overflow: hidden;
 		max-width: 0;
+		transition-duration: 0.2s;
 	}
 
 	.tab.active p {
 		max-width: 200px;
 		margin-left: 10px;
-		transition: max-width 0.5s linear;
+		transition: max-width 0.2s linear;
 	}
 
 	.tab.active.purple {
