@@ -11,7 +11,6 @@
 	<div>
 		<div id="page" class="site">
 			<canvas class="banner_canvas" id="canvas_banner" />
-
 		</div>
 		<div class="hero__container">
 			<div class="hero__heading">
@@ -32,21 +31,17 @@
 				>
 				<a
 					data-sveltekit-preload-data="tap"
-					href="#Hero"
+					href="#Contact"
 					class="btn text-base sm:text-xl md:text-2xl">Get in touch</a
 				>
 			</div>
 		</div>
 
-		<div class="hero__shadow">
-
-		</div>
+		<div class="hero__shadow" />
 	</div>
 </section>
 
 <style>
-	.hero {}
-
 	.hero__shadow {
 		pointer-events: none;
 		z-index: 5;
@@ -56,8 +51,7 @@
 		height: 100vh;
 		left: 0;
 		right: 0;
-		box-shadow: inset      0px          -45px       20px           -10px       #000;
-
+		box-shadow: inset 0px -45px 20px -10px #000;
 	}
 
 	.btn {
@@ -129,7 +123,7 @@
 		background-size: 600%;
 		outline: 0;
 		padding: 0.2em 0.5em;
-		border-radius: 12px;
+		border-radius: 6px;
 		border: none;
 		color: white;
 		position: relative;
