@@ -1,5 +1,6 @@
 <script>
 	import { HeroSection, AboutSection, TechSection } from '../layout';
+	import ContactSection from '../layout/ContactSection/ContactSection.svelte';
 	import PortfolioSection from '../layout/PortfolioSection/PortfolioSection.svelte';
 </script>
 
@@ -15,6 +16,8 @@
 <AboutSection />
 
 <PortfolioSection />
+
+<ContactSection />
 
 <style>
 </style>
