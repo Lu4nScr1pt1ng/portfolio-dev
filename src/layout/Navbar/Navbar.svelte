@@ -65,6 +65,8 @@
 				}
 			});
 
+			console.log('tab atual: ' + current);
+			console.log('scrollY: ' + scrollY);
 			tabs.forEach((tab) => {
 				if (current !== null) {
 					tab.classList.remove('active');
@@ -119,7 +121,7 @@
 			>
 			<p>About</p>
 		</a>
-		<a class="tab Portfolio yellow" href="#Hero">
+		<a class="tab Portfolio yellow" href="#Portfolio">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="w-[0.8em] h-[0.8em] sm:w-[1.2em] sm:h-[1.2em]"

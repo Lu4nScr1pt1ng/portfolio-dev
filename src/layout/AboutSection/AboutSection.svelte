@@ -3,7 +3,7 @@
 
 </script>
 
-<section id="About" class="about text-white h-[100vh] container mx-auto">
+<section id="About" class="about text-white container mx-auto">
 	<div class="about__container">
 		<div class="flex items-center gap-4 py-8 text-3xl">
 			<h2 class="text-primary section__heading font-semibold whitespace-nowrap heading">About Me</h2>
