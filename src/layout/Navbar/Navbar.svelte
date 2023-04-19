@@ -60,7 +60,7 @@
 
 			sections.forEach((section) => {
 				const sectionTop = section.offsetTop;
-				if (scrollY + 100 >= sectionTop - 60) {
+				if (scrollY + 174 >= sectionTop - 60) {
 					current = section.getAttribute('id');
 				}
 			});
@@ -160,7 +160,7 @@
 		z-index: 10;
 		position: fixed;
 		left: 50%;
-		bottom: 50px;
+		bottom: 30px;
 		transform: translate(-50%, -50%);
 	}
 

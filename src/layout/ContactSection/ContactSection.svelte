@@ -2,7 +2,7 @@
 	import { externalLink } from '$lib/utils';
 </script>
 
-<section id="Contact" class="container mx-auto h-[90vh]">
+<section id="Contact" class="container mx-auto h-[70vh]">
 	<div class="flex items-center gap-4 py-8 text-3xl">
 		<h2 class="text-primary section__heading font-semibold whitespace-nowrap heading">Contact</h2>
 		<div class="line--rainbow" />
