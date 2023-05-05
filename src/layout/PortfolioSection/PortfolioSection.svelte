@@ -65,7 +65,7 @@
 					<a
 						class="card__link"
 						{...externalLink}
-						href="https://github.com/Lu4nScr1pt1ng/winechallenge"
+						href="https://github.com/Lu4nScr1pt1ng/wakanda-landing-page"
 						><svg
 							stroke="currentColor"
 							fill="currentColor"
